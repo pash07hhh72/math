@@ -35,7 +35,3 @@ def D(X: np.ndarray, p: np.ndarray = p):
     """
     e = E(X)
     return scalar_product(X - e, X - e, p)
-
-
-
-print("hello_1.py")
